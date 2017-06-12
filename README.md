@@ -93,13 +93,13 @@ Contenidos
 <br /> 
 
 3.  Análisis de redes sociales 
-    2.  Caminos
-	3.  Componentes
-	4.  Matrices de adyacencias
-	5.  Descriptivos de una red
-		1. Medidas de cohesión
-		2. Medidas de transitividad
-		3. Medidas de centralidad
+    1.  Caminos
+    3.  Componentes
+    4.  Matrices de adyacencias
+    5.  Descriptivos de una red
+	1. Medidas de cohesión
+	2. Medidas de transitividad
+	3. Medidas de centralidad
 	6.  Detección de comunidades
 	7.  Contraste de hipótesis en redes sociales
     8.  Un ejemplo: Redes de colaboración en el Congreso de los Diputados
