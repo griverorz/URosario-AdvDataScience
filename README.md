@@ -1,4 +1,4 @@
-_Big data_ para los sectores público y privado (Primera parte)
+Primera parte de "_Big data_ para los sectores público y privado"
 =================================================
 
 Objetivos
