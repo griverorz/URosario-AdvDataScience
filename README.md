@@ -80,7 +80,7 @@ Contenidos
 <br /> 
 
 2.  Captura de datos de Internet
-    1.  Capturar datos provenientes de una REST API
+    1.  Capturar datos provenientes de una REST API	
 		2. Estructura de una REST API
         1. Formatos de intercambio de datos
 		3. Un ejemplo: Search API de Twitter
