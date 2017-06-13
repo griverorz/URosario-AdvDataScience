@@ -80,15 +80,15 @@ Contenidos
 <br /> 
 
 2.  Captura de datos de Internet
-    1.  Capturar datos provenientes de una REST API	
-		2. Estructura de una REST API
-        1. Formatos de intercambio de datos
-		3. Un ejemplo: Search API de Twitter
-    3.  Obtención de datos de páginas web
+    1. Capturar datos provenientes de una REST API
+        1. Estructura de una REST API
+        2. Formatos de intercambio de datos
+        3. Un ejemplo: Search API de Twitter
+    2. Obtención de datos de páginas web
         1.  Una breve introducción a HTML y CSS
-		2.  Un ejemplo: Resultados electorales en Colombia
-	2. Captura de datos en streaming
-	   1. Un ejemplo: Streaming API de Twitter 
+        2.  Un ejemplo: Resultados electorales en Colombia
+    3. Captura de datos en streaming
+        1. Un ejemplo: Streaming API de Twitter 
 
 <br /> 
 
