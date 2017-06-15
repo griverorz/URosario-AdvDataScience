@@ -9,13 +9,13 @@ aceptable para demostrar errores en el envío. Envía únicamente el código que
 hayas usado en un archivo `.R`.
 
 
-1. Escribe una función que tome como argumento un entero $n>1$ y genere la
-   secuencia de los cuadrados de los enteros $1, \dots, n^2$. Es decir, si el
+1. Escribe una función que tome como argumento un entero n>1 y genere la
+   secuencia de los cuadrados de los enteros 1, ..., n^2. Es decir, si el
    input es `4`, la función debe retornar el vector `c(1, 4, 9, 16)`.
    
 2. Modifica el código anterior para que cuando el input de la función sea un
    número par (divisible de manera entera entre 2) la función devuelva, en lugar
-   de una secuencia de cuadrados, la secuencia de $1$ a $n/2$. Es decir, si el
+   de una secuencia de cuadrados, la secuencia de 1 a n/2. Es decir, si el
    input es 3, la función debe retornar el vector `c(1, 4, 9)` pero si el input
    es 4, debe retornar `c(1, 2)`. Para determinar si un valor es par puedes
    ayudarte del operador módulo `%%` que devuelve el resto de dividir el número
