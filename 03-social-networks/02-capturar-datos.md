@@ -34,7 +34,7 @@ ese candidato.
         dip_data <- GET(url)
         ## Estamos haciendo una recogida muy breve de datos
         ## En recogidas mas grandes querremos
-        ## 1. verificar que el contenido no es vacio (status == 200)
+        ## 1. verificar que el contenido no es vacio 
         ## 2. Guardar en disco a medida que capturamos datos
         ## 3. Tomar acciones si recibimos error o si falla la conexion
         out <- fromJSON(content(dip_data, as="text"), simplifyVector=FALSE)
