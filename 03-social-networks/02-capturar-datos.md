@@ -580,7 +580,7 @@ observaciones
 
 Finalmente, guardaremos los datos en un archivo `.RDS` asegurándonos de
 que la lista de aristas que acabamos de crear contenga los *nombres*
-(las id numéricas) de cada diputaod.
+(las id numéricas) de cada diputados.
 
     edgelist <- apply(edgelist, 2, as.character)
     saveRDS(edgelist, "dta/edgelist-diputados.RDS")
