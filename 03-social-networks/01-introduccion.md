@@ -125,7 +125,7 @@ Ahora podemos visualizar los atributos que acabamos de crear
     ## [1] "hombre" "hombre" "mujer"  "hombre" "mujer" 
     ## 
     ## $edad
-    ## [1] 48 33 31 45 49
+    ## [1] 21 22 23 20 48
 
     print(g)
 
@@ -143,7 +143,7 @@ conocido, si a través de un equipo deportivo o en la universidad.
     edge_attr(g)
 
     ## $relationship
-    ## [1] "equipo"      "equipo"      "universidad" "equipo"      "equipo"     
+    ## [1] "equipo"      "universidad" "universidad" "universidad" "universidad"
     ## [6] "universidad" "universidad"
 
     print(g)
@@ -168,15 +168,17 @@ información que será útil para entenderla mejor. Por ejemplo, podemos
 tomar la red y extraer subredes definidos por aristas, utilizando la
 notación especial `%--%`.
 
-    E(g)["Andres" %--% "Carlos"]
+    E(g)["Daniel" %--% "Carlos"]
 
-    ## + 0/7 edges (vertex names):
+    ## + 1/7 edge (vertex names):
+    ## [1] Daniel->Carlos
 
-    E(g)["Andres" %->% "Carlos"]
+    E(g)["Daniel" %->% "Carlos"]
 
-    ## + 0/7 edges (vertex names):
+    ## + 1/7 edge (vertex names):
+    ## [1] Daniel->Carlos
 
-    E(g)["Andres" %<-% "Carlos"]
+    E(g)["Daniel" %<-% "Carlos"]
 
     ## + 0/7 edges (vertex names):
 
