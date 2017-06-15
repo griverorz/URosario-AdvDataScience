@@ -125,7 +125,7 @@ Ahora podemos visualizar los atributos que acabamos de crear
     ## [1] "hombre" "hombre" "mujer"  "hombre" "mujer" 
     ## 
     ## $edad
-    ## [1] 21 22 23 20 48
+    ## [1] 48 49 18 43 30
 
     print(g)
 
@@ -143,7 +143,7 @@ conocido, si a través de un equipo deportivo o en la universidad.
     edge_attr(g)
 
     ## $relationship
-    ## [1] "equipo"      "universidad" "universidad" "universidad" "universidad"
+    ## [1] "universidad" "equipo"      "equipo"      "equipo"      "equipo"     
     ## [6] "universidad" "universidad"
 
     print(g)
@@ -168,19 +168,20 @@ información que será útil para entenderla mejor. Por ejemplo, podemos
 tomar la red y extraer subredes definidos por aristas, utilizando la
 notación especial `%--%`.
 
-    E(g)["Daniel" %--% "Carlos"]
+    E(g)["Teresa" %--% "Carlos"]
+
+    ## + 2/7 edges (vertex names):
+    ## [1] Teresa->Carlos Carlos->Teresa
+
+    E(g)["Teresa" %->% "Carlos"]
 
     ## + 1/7 edge (vertex names):
-    ## [1] Daniel->Carlos
+    ## [1] Teresa->Carlos
 
-    E(g)["Daniel" %->% "Carlos"]
+    E(g)["Teresa" %<-% "Carlos"]
 
     ## + 1/7 edge (vertex names):
-    ## [1] Daniel->Carlos
-
-    E(g)["Daniel" %<-% "Carlos"]
-
-    ## + 0/7 edges (vertex names):
+    ## [1] Carlos->Teresa
 
 Más interesante es recuperar subredes definidas por características de
 los vértices. Por ejemplo, podemos extraer la subred formada únicamente
