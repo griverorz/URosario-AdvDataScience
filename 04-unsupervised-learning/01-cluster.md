@@ -551,7 +551,9 @@ lo más práctico sea mirar el dendrograma resultante:
 
     plot(agmodel, ask=FALSE, 3)
 
-Vemso que dos grupos aparecen con mucha claridad. Por una parte, los
+![](./assets/dendrogram.png)
+
+Vemos que dos grupos aparecen con mucha claridad. Por una parte, los
 departamentos 2, 30 y 14, que, sin ser del todo parecidos entre ellos,
 son muy diferentes a los demás. Por otra, todas las demás observaciones.
 
